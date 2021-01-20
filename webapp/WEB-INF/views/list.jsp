@@ -30,7 +30,8 @@
 		</tr>
 		<tr>
 			<td><a href="http://localhost:8088/phonebook3/phone/modifyForm?id=${personVo.person_id}">[수정]</a></td>
-			<td><a href="http://localhost:8088/phonebook3/phone/delete?id=${personVo.person_id}">[삭제]</a></td>
+			<!--<td><a href="http://localhost:8088/phonebook3/phone/delete?id=${personVo.person_id}">[삭제]</a></td> -->
+			<td><a href="http://localhost:8088/phonebook3/phone/delete/${personVo.person_id}">[삭제]</a></td>
 		</tr>
 		
 	</table>

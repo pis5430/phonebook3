@@ -21,7 +21,7 @@
 		핸드폰(hp) : <input type="text" name="hp" value="${oneVo.hp}"> <br>
 		회사(company) : <input type="text" name="company" value="${oneVo.company}"> <br>
 		
-		 <input type="hidden" name="id" value="${oneVo.person_id }">
+		 <input type="hidden" name="person_id" value="${oneVo.person_id }">
 		 <input type="hidden" name="action" value="update"> 
 	<button type="submit" >수정</button>
 		
